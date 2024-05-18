@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+nav {
+    background-color: lightslategray;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 60px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: lavender;
+    font-size: 1.2rem;
+}
+
+.active  {
+    color: midnightblue !important;
+}
+
+
+/* stying the links container */
+.nav-login-container {
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* login button */
+.login {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.login:hover {
+    background-color: lightslategray;
+    box-shadow: 0  0  10px black;
+    border: none;
+}
+
+
+/* sign up button */
+.signUp {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: black; 
+    font-size: 1.2rem;
+}
+
+.signUp:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+/* sign up and login page styles */
+.container {
+    width: 500px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px ;
+    padding: 1rem;
+    margin: 10% auto;
+
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+/* About page styles */
+.about-us-container {
+    width: 600px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.about-us-container h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    margin-bottom: .5rem;
+}
+
+.about-us-container p {
+    font-size: 2rem;
+    font-family: cursive;   
+}
+
+footer {
+    background-color: lightslategray;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer .name a {
+    color: wheat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+/* home page styles */
+.home {
+    margin-top: 5rem;
+    text-align: center;
+}
+.home h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: cursive;
+}
+
+/* .home span {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: cursive;
+} */
+
+.home h3 {
+    text-align: start;
+    margin-left: 10%;
+}
+
+.home .below {
+    font-size: 2rem;
+    font-family: cursive; 
+    font-weight: bold;
+    color: cornflowerblue;
+} 
+
+
+/* home page chick products btn */
+.chick-products {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: 10%;
+    text-align: start;
+    width: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.chick-products:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+section h1, h2, h3 {
+    font-weight: normal;
+}
+
+section h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-container h3 {
+    margin: 0;
+    margin-top: 1rem;
+}
+.card-container h1 {
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: lightslategray;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 0 1rem black;
+}
+
+.card:nth-last-of-type(2) {
+    background-color: wheat;
+    color: black;
+}
+
+
+.card a {
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
+
+.second-card-ling {
+    background-color: lightslategray  !important;
+    color: #fff !important;
+}
+
+.card-container a:hover {
+    box-shadow: 0 0 10px black;
+}
+
+/* products page stails */
+.products-title {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.products .card {
+    background-color: lightslategray;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.products .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+
+
+/* zain page styles */
+
+.info-container {
+    width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-container h1 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 3rem;
+}
